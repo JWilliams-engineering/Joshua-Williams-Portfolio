@@ -307,7 +307,7 @@ ul { list-style: none; }
 }
 
 .case-list li::before {
-  content: '—';
+  content: '-';
   position: absolute;
   left: 0;
   color: var(--accent);
