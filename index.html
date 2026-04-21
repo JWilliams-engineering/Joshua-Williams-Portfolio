@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Joshua Williams — Alternative Energy & Power Generation Portfolio</title>
+  <title>Joshua Williams - Alternative Energy & Power Generation Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
 
-  <!-- Award badge + inline styles scoped to new elements only -->
   <style>
     .award-banner {
       display: flex;
@@ -54,8 +53,6 @@
       color: #5a534c;
       line-height: 1.5;
     }
-
-    /* GPA / stat tag in hero */
     .hero-gpa {
       display: inline-block;
       font-size: 0.75rem;
@@ -73,7 +70,7 @@
 </head>
 <body>
 
-  <!-- ─── NAV ─────────────────────────────────────────────────────────────── -->
+  <!-- NAV -->
   <nav class="nav">
     <div class="nav-inner container">
       <span class="nav-logo">Joshua Williams</span>
@@ -81,13 +78,13 @@
         <li><a href="#featured">Projects</a></li>
         <li><a href="#other-projects">All Work</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="resume.pdf" class="nav-resume" target="_blank">Résumé ↗</a></li>
+        <li><a href="Joshua_Williams_Resume.pdf" class="nav-resume" target="_blank" download>Resume</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
     </div>
   </nav>
 
-  <!-- ─── HERO ─────────────────────────────────────────────────────────────── -->
+  <!-- HERO -->
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-eyebrow">
@@ -95,14 +92,14 @@
       </div>
       <h1 class="hero-name">Joshua Williams</h1>
       <p class="hero-tagline">
-        I engineer renewable energy systems around real-world constraints —<br class="br-desk" />
+        I engineer renewable energy systems around real-world constraints -<br class="br-desk" />
         from power conversion and structural design to control logic and field fabrication.
       </p>
       <div class="hero-divider"></div>
       <div class="hero-meta">
         <span>Penn State Hazleton</span>
         <span class="dot">·</span>
-        <span>B.S. Engineering — Alternative Energy &amp; Power Generation</span>
+        <span>B.S. Engineering - Alternative Energy &amp; Power Generation</span>
         <span class="dot">·</span>
         <span>GPA: 3.50 <span class="hero-gpa">Dean's List</span></span>
         <span class="dot">·</span>
@@ -111,7 +108,7 @@
     </div>
   </section>
 
-  <!-- ─── FEATURED PROJECT ──────────────────────────────────────────────────── -->
+  <!-- FEATURED PROJECT -->
   <section class="section featured" id="featured">
     <div class="container">
 
@@ -119,7 +116,7 @@
       <h2 class="section-title">Dual-Axis Solar Tracking System</h2>
       <p class="section-subtitle">
         An Arduino-controlled dual-axis sun-tracking system designed to quantify and improve
-        photovoltaic energy yield on constrained north-facing rooftop installations —
+        photovoltaic energy yield on constrained north-facing rooftop installations -
         developed as independent Honors Research and presented at the Penn State Hazleton
         Spring 2025 Research Fair.
       </p>
@@ -134,13 +131,13 @@
           </svg>
         </div>
         <div class="award-content">
-          <div class="award-label">🏆 &nbsp;Research Award — 1st Place</div>
+          <div class="award-label">🏆 &nbsp;Research Award - 1st Place</div>
           <div class="award-title">
             "South-Facing Solar Tracker Performance on a North-Facing Roof"
           </div>
           <div class="award-meta">
             Penn State Hazleton Annual Research Symposium &nbsp;·&nbsp; Spring 2025 &nbsp;·&nbsp;
-            First Place — Undergraduate Research Category
+            First Place - Undergraduate Research Category
           </div>
         </div>
       </div>
@@ -155,10 +152,10 @@
             <p>
               North-facing roof-mounted photovoltaic panels in the northern hemisphere operate
               at a fixed, suboptimal angle relative to the sun's daily arc. As solar azimuth
-              and elevation shift throughout the day, a stationary panel can forfeit 25–40%
+              and elevation shift throughout the day, a stationary panel can forfeit 25-40%
               of potential energy capture compared to an actively tracked equivalent. The
               engineering challenge was to design and build a dual-axis tracking system capable
-              of dynamically orienting a PV panel toward peak irradiance — then quantify the
+              of dynamically orienting a PV panel toward peak irradiance, then quantify the
               real energy yield improvement through physical testing and measurement.
             </p>
           </div>
@@ -185,13 +182,13 @@
               elevation in real time from GPS-derived coordinates and a real-time clock
               (RTC) module, then drives two servo-actuated axes to orient the PV panel
               toward calculated peak irradiance. Unlike light-dependent resistor (LDR)
-              sensor approaches — which are susceptible to cloud-cover noise and local
-              shading — the algorithm-based approach provides predictable, smooth tracking
+              sensor approaches - which are susceptible to cloud-cover noise and local
+              shading - the algorithm-based approach provides predictable, smooth tracking
               behaviour throughout the day regardless of transient irradiance conditions.
             </p>
             <p>
               The structural frame was designed in Fusion 360 and fabricated using
-              3D-printed components, a fabrication method I had applied professionally
+              3D-printed components, a fabrication method applied professionally
               at Insteel Wire Products to reduce component costs by up to 97%. This
               allowed for rapid iteration of the gimbal geometry without tooling cost,
               while keeping the overall system compact and mountable on a standard
@@ -225,10 +222,10 @@
                   <circle cx="8.5" cy="8.5" r="1.5"/>
                   <polyline points="21 15 16 10 5 21"/>
                 </svg>
-                <span class="img-label">CAD Model — Fusion 360 Dual-Axis Assembly</span>
+                <span class="img-label">CAD Model - Fusion 360 Dual-Axis Assembly</span>
               </div>
             </div>
-            <p class="visual-caption">Fig. 1 — Full CAD assembly showing dual-axis gimbal frame, servo mounts, and PV panel interface.</p>
+            <p class="visual-caption">Fig. 1 - Full CAD assembly showing dual-axis gimbal frame, servo mounts, and PV panel interface.</p>
           </div>
 
           <div class="visual-card">
@@ -240,10 +237,10 @@
                   <circle cx="8.5" cy="8.5" r="1.5"/>
                   <polyline points="21 15 16 10 5 21"/>
                 </svg>
-                <span class="img-label">Prototype Photo — Research Fair Build</span>
+                <span class="img-label">Prototype Photo - Research Fair Build</span>
               </div>
             </div>
-            <p class="visual-caption">Fig. 2 — Completed prototype as presented at the Penn State Hazleton Spring 2025 Research Symposium.</p>
+            <p class="visual-caption">Fig. 2 - Completed prototype as presented at the Penn State Hazleton Spring 2025 Research Symposium.</p>
           </div>
 
           <div class="visual-card">
@@ -255,10 +252,10 @@
                   <circle cx="8.5" cy="8.5" r="1.5"/>
                   <polyline points="21 15 16 10 5 21"/>
                 </svg>
-                <span class="img-label">System Diagram — Arduino Control Architecture</span>
+                <span class="img-label">System Diagram - Arduino Control Architecture</span>
               </div>
             </div>
-            <p class="visual-caption">Fig. 3 — Block diagram showing GPS/RTC inputs, sun-position algorithm, and dual servo output control loop.</p>
+            <p class="visual-caption">Fig. 3 - Block diagram showing GPS/RTC inputs, sun-position algorithm, and dual servo output control loop.</p>
           </div>
 
         </div>
@@ -266,7 +263,7 @@
     </div>
   </section>
 
-  <!-- ─── SYSTEM BREAKDOWN ──────────────────────────────────────────────────── -->
+  <!-- SYSTEM BREAKDOWN -->
   <section class="section breakdown" id="breakdown">
     <div class="container">
       <div class="section-label">System Breakdown</div>
@@ -284,7 +281,7 @@
           <ul>
             <li>Frame designed in Fusion 360 and fabricated via 3D printing for rapid iteration</li>
             <li>Dual-axis gimbal geometry allows independent azimuth and elevation adjustment</li>
-            <li>3D-printed components replaced off-the-shelf hardware — reducing per-unit cost significantly</li>
+            <li>3D-printed components replaced off-the-shelf hardware, reducing per-unit cost significantly</li>
             <li>Compact footprint designed for rooftop parapet mounting without permanent attachment</li>
             <li>Gen 2 redesign in progress with improved joint stiffness and refined panel interface</li>
           </ul>
@@ -296,7 +293,7 @@
           <ul>
             <li>Two servo motors drive azimuth and elevation axes independently</li>
             <li>Servo torque rated to overcome panel aerodynamic and gravitational loading at design angles</li>
-            <li>Direct-drive configuration — no gearbox, minimising mechanical complexity and backlash</li>
+            <li>Direct-drive configuration with no gearbox, minimising mechanical complexity and backlash</li>
             <li>Servo pulse-width commands generated in firmware based on calculated sun position</li>
             <li>Axis travel limits enforced in software to prevent over-rotation and cable strain</li>
           </ul>
@@ -306,10 +303,10 @@
           <div class="card-num">03</div>
           <h3 class="card-title">Braking &amp; Position Hold</h3>
           <ul>
-            <li>Servo motors hold commanded position actively — no passive brake required</li>
+            <li>Servo motors hold commanded position actively - no passive brake required</li>
             <li>Panel position maintained at last valid sun-position calculation between update intervals</li>
             <li>Dead-band implemented in firmware to suppress unnecessary micro-actuation in stable conditions</li>
-            <li>On power loss, servos de-energise; panel returns to neutral resting position under gravity</li>
+            <li>On power loss, servos de-energise and panel returns to neutral resting position under gravity</li>
             <li>Gen 2 design evaluates locking hinge geometry to reduce continuous servo hold current</li>
           </ul>
         </div>
@@ -318,10 +315,10 @@
           <div class="card-num">04</div>
           <h3 class="card-title">Control System</h3>
           <ul>
-            <li>Arduino microcontroller — chosen for accessible I/O, C++ programmability, and prototyping speed</li>
+            <li>Arduino microcontroller chosen for accessible I/O, C++ programmability, and prototyping speed</li>
             <li>Solar azimuth and elevation computed in firmware from GPS coordinates and RTC timestamp</li>
             <li>Algorithm-based tracking eliminates LDR sensor dependency and cloud-cover noise</li>
-            <li>Control loop executes every 60 s — matched to practical solar angular movement resolution</li>
+            <li>Control loop executes every 60 s - matched to practical solar angular movement resolution</li>
             <li>Serial output logs computed sun position and servo commands for post-run data analysis</li>
           </ul>
         </div>
@@ -330,8 +327,8 @@
           <div class="card-num">05</div>
           <h3 class="card-title">Electrical / Power System</h3>
           <ul>
-            <li>Powered from a regulated 5 V USB supply during lab testing; battery pack for outdoor deployment</li>
-            <li>Arduino supplies servo PWM signals directly; servo power supplied via separate 5 V rail</li>
+            <li>Powered from a regulated 5 V USB supply during lab testing with a battery pack for outdoor deployment</li>
+            <li>Arduino supplies servo PWM signals directly with servo power supplied via separate 5 V rail</li>
             <li>GPS module and RTC integrated on shared I2C/Serial bus with Arduino Uno</li>
             <li>Current draw characterised across tracking range to inform battery sizing for Gen 2</li>
             <li>Wiring routed along frame members and secured to prevent interference with moving axes</li>
@@ -342,7 +339,7 @@
     </div>
   </section>
 
-  <!-- ─── RESULTS ───────────────────────────────────────────────────────────── -->
+  <!-- RESULTS -->
   <section class="section results" id="results">
     <div class="container">
       <div class="section-label">Results &amp; Analysis</div>
@@ -353,19 +350,19 @@
         <div class="stat-block">
           <div class="stat-num">~28%</div>
           <div class="stat-desc">Estimated daily energy yield improvement over a fixed-angle
-          north-facing installation, based on solar irradiance simulation at 40°N latitude
+          north-facing installation, based on solar irradiance simulation at 40 degrees N latitude
           (Penn State Hazleton). Field validation ongoing for Gen 2.</div>
         </div>
 
         <div class="stat-block">
           <div class="stat-num">1st</div>
           <div class="stat-desc">Place finish at the Penn State Hazleton Annual Research
-          Symposium, Spring 2025 — undergraduate research category.</div>
+          Symposium, Spring 2025 - undergraduate research category.</div>
         </div>
 
         <div class="stat-block">
           <div class="stat-num">Dual</div>
-          <div class="stat-desc">Axis control — azimuth and elevation tracked independently,
+          <div class="stat-desc">Axis control - azimuth and elevation tracked independently,
           enabling full sky-arc alignment throughout the day versus single-axis
           tilt-only alternatives.</div>
         </div>
@@ -389,13 +386,13 @@
             are simpler to implement, they are inherently noisy under variable cloud
             cover and fail to distinguish diffuse irradiance from direct beam radiation.
             The GPS/RTC computational approach produces smooth, predictable tracking
-            behaviour with no sensor drift — at the cost of slightly higher firmware
+            behaviour with no sensor drift - at the cost of slightly higher firmware
             complexity and a dependence on accurate time synchronisation.
           </p>
           <p>
             Using 3D-printed structural components enabled rapid design iteration and
-            dramatically reduced fabrication cost — a strategy validated professionally
-            during my internship at Insteel Wire Products, where additive manufacturing
+            dramatically reduced fabrication cost - a strategy validated professionally
+            during the internship at Insteel Wire Products, where additive manufacturing
             reduced component costs by up to 97%. For a field-hardened Gen 2 deployment,
             critical load-bearing joints would be transitioned to machined aluminum
             to improve long-term fatigue resistance in outdoor conditions.
@@ -408,7 +405,7 @@
             This project demonstrated how closely mechanical design, embedded control,
             and power system constraints interact in a real energy engineering application.
             Frame geometry decisions directly influenced servo torque requirements, which
-            drove power budget estimates, which sized the portable battery system — each
+            drove power budget estimates, which sized the portable battery system - each
             subsystem decision tightened the constraints on the next.
           </p>
           <p>
@@ -425,7 +422,7 @@
     </div>
   </section>
 
-  <!-- ─── OTHER PROJECTS ────────────────────────────────────────────────────── -->
+  <!-- OTHER PROJECTS -->
   <section class="section other-projects" id="other-projects">
     <div class="container">
       <div class="section-label">Other Work</div>
@@ -437,13 +434,13 @@
           <div class="project-img-placeholder"></div>
           <div class="project-info">
             <div class="project-tag">Additive Manufacturing · Cost Engineering</div>
-            <h3>3D-Printed Component Programme — Insteel Wire Products</h3>
-            <p>Developed and deployed an additive manufacturing programme during my
+            <h3>3D-Printed Component Programme - Insteel Wire Products</h3>
+            <p>Developed and deployed an additive manufacturing programme during an
             engineering internship, producing 35+ functional CAD models in Fusion 360
             and replacing machined or purchased components with printed equivalents.
             Achieved up to 97% unit cost reduction, generating over $7,000 in
             documented annual savings.</p>
-            <a href="#" class="project-link">View Case Study →</a>
+            <a href="#" class="project-link">View Case Study</a>
           </div>
         </div>
 
@@ -451,13 +448,13 @@
           <div class="project-img-placeholder"></div>
           <div class="project-info">
             <div class="project-tag">Electrical · PCB Design · Club Leadership</div>
-            <h3>Bike Generator Demo &amp; PCB Workshop — Science &amp; Engineering Club</h3>
+            <h3>Bike Generator Demo &amp; PCB Workshop - Science &amp; Engineering Club</h3>
             <p>As President of the Penn State Hazleton Science and Engineering Club,
             designed and led a human-powered Bike Generator demonstration for campus
             open house events. Also coordinating a PCB design workshop (Fall 2025) and
             a drone construction project integrating custom PCBs and 3D-printed
             airframe components (Spring 2026).</p>
-            <a href="#" class="project-link">View Case Study →</a>
+            <a href="#" class="project-link">View Case Study</a>
           </div>
         </div>
 
@@ -469,9 +466,9 @@
             <p>Designed and built Arduino-based motion sensor systems as part of the
             Science and Engineering Club's hands-on STEM programme. Covered sensor
             selection, C++ firmware development, circuit wiring, and integration
-            with actuator outputs — serving as accessible applied electronics
-            workshops for club members.</p>
-            <a href="#" class="project-link">View Case Study →</a>
+            with actuator outputs - serving as applied electronics workshops for
+            club members.</p>
+            <a href="#" class="project-link">View Case Study</a>
           </div>
         </div>
 
@@ -479,13 +476,13 @@
           <div class="project-img-placeholder"></div>
           <div class="project-info">
             <div class="project-tag">Honors Research · In Progress</div>
-            <h3>Solar Tracker Gen 2 — Spring 2026 Research Symposium</h3>
+            <h3>Solar Tracker Gen 2 - Spring 2026 Research Symposium</h3>
             <p>Second-generation dual-axis solar tracking system currently under
             development. Gen 2 targets improved structural rigidity, outdoor
             weatherproofing, and a structured energy yield data logging system
             for quantitative performance comparison against a fixed-panel baseline.
             Target presentation: Penn State Hazleton Research Symposium, Spring 2026.</p>
-            <a href="#" class="project-link">In Progress →</a>
+            <a href="#" class="project-link">In Progress</a>
           </div>
         </div>
 
@@ -493,7 +490,7 @@
     </div>
   </section>
 
-  <!-- ─── CONTACT ───────────────────────────────────────────────────────────── -->
+  <!-- CONTACT -->
   <section class="section contact" id="contact">
     <div class="container contact-inner">
       <div class="section-label">Get in Touch</div>
@@ -508,17 +505,17 @@
         <a href="mailto:joshuaw6714@gmail.com" class="contact-btn primary">
           joshuaw6714@gmail.com
         </a>
-     <a href="https://www.linkedin.com/in/joshua-williams-288418291/" target="_blank" class="contact-btn secondary">
-  LinkedIn ↗
-</a>
-        <a href="resume.pdf" target="_blank" class="contact-btn secondary">
-          Download Résumé ↗
+        <a href="https://www.linkedin.com/in/joshua-wlliams-288418291/" target="_blank" class="contact-btn secondary">
+          LinkedIn
+        </a>
+        <a href="Joshua_Williams_Resume.pdf" target="_blank" download class="contact-btn secondary">
+          Download Resume
         </a>
       </div>
     </div>
   </section>
 
-  <!-- ─── FOOTER ────────────────────────────────────────────────────────────── -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
       <span>© 2025 Joshua Williams</span>
