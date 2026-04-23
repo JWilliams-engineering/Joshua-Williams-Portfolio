@@ -257,7 +257,7 @@ ul { list-style: none; }
 @media (max-width: 940px) {
   .featured-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 64px;
   }
 }
 
