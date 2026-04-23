@@ -671,7 +671,7 @@ ul { list-style: none; }
 }
 /* ─── IMAGE FIX FOR VISUAL CARDS ───────────────────────────────────────────── */
 .img-container {
-  width: 100%;
+  width: 125%;
   height: 420px; /* controls image size */
   overflow: hidden;
   border-radius: var(--radius);
