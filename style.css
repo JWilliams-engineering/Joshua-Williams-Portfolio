@@ -340,6 +340,7 @@ ul { list-style: none; }
   gap: 20px;
   position: sticky;
   top: 80px;
+  align-self: start;
 }
 
 @media (max-width: 940px) {
