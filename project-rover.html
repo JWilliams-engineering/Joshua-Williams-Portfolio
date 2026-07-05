@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autonomous Planetary Rover - Joshua Williams</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body data-page="projects">
+
+  <div id="nav"></div>
+
+  <section class="section featured">
+    <div class="container">
+      <a href="projects.html" class="project-link" style="display:inline-block;margin-bottom:24px;">← All Projects</a>
+
+      <div class="section-label">Ongoing Project · Hardware Lead</div>
+      <h2 class="section-title">Autonomous Planetary Rover</h2>
+
+      <div class="featured-grid">
+        <div class="featured-text">
+          <div class="case-block">
+            <h3 class="case-heading">Project Overview</h3>
+            <p>
+              A four-wheel-drive autonomous ground vehicle designed from the ground up in
+              Fusion 360, including the chassis, independent suspension, and steering
+              knuckles, with TPU-printed wheels. The rover is currently in hardware
+              testing. The electronics stack pairs a Raspberry Pi 4 with an ESP32,
+              driving encoder-based motors through H-bridge drivers off a 3S LiPo power
+              system, with a 500ms motor-cutoff safety watchdog to protect the hardware
+              during testing.
+            </p>
+          </div>
+
+          <div class="case-block">
+            <h3 class="case-heading">My Role &amp; Approach</h3>
+            <p>
+              Hardware Lead on the project, responsible for the mechanical design
+              (chassis, suspension, steering) and the power/motor control electronics,
+              including the safety watchdog system. Also building the data logging
+              system that tracks encoder speed, motor response, and power usage during
+              tests, while a partner develops the Python/OpenCV navigation stack. The
+              project is documented with full CAD and a bill of materials on GitHub.
+            </p>
+          </div>
+
+          <div class="case-block">
+            <h3 class="case-heading">Tools &amp; Methods</h3>
+            <div class="tool-chips">
+              <span class="chip">Fusion 360 (CAD)</span>
+              <span class="chip">Raspberry Pi 4 / ESP32</span>
+              <span class="chip">Python / OpenCV</span>
+              <span class="chip">Embedded C/C++</span>
+              <span class="chip">3D Printing (TPU)</span>
+              <span class="chip">H-Bridge Motor Control</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-visuals">
+          <div class="img-container">
+            <!-- Swap this for a real build photo once you have one, e.g. images/Rover.jpg -->
+            <img src="images/Winning_research.jpg" alt="Rover project placeholder image - replace with a real photo">
+          </div>
+          <p class="visual-caption">Photo placeholder — swap in a real rover build photo when ready.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer"></div>
+  <script src="include.js"></script>
+</body>
+</html>
