@@ -11,8 +11,23 @@
 </head>
 <body data-page="index">
 
-  <div id="nav"></div>
+  <!-- ===== NAV (from nav.html) ===== -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <a href="index.html" class="nav-logo">Joshua Williams</a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-page="index">Home</a></li>
+        <li><a href="about.html" data-page="about">About</a></li>
+        <li><a href="projects.html" data-page="projects">Projects</a></li>
+        <li><a href="classwork.html" data-page="classwork">Class Work</a></li>
+        <li><a href="contact.html" data-page="contact">Contact</a></li>
+        <li><a href="Joshua_Williams_Resume.pdf" class="nav-resume" target="_blank" download>Resume</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
 
+  <!-- ===== INDEX (home) CONTENT ===== -->
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-eyebrow">
@@ -35,6 +50,41 @@
       <div class="home-links">
         <a href="projects.html" class="poster-btn">View Projects</a>
         <a href="contact.html" class="poster-btn">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT CONTENT ===== -->
+  <section class="section page-header">
+    <div class="container">
+      <div class="section-label">About</div>
+      <h2 class="section-title">Joshua Williams</h2>
+      <p class="section-subtitle">
+        B.S. Engineering, Alternative Energy &amp; Power Generation · Penn State Hazleton · Class of 2027
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="case-block">
+        <h3 class="case-heading">Background</h3>
+        <p>
+          I'm an undergraduate engineering student at Penn State Hazleton studying
+          Alternative Energy and Power Generation — an interdisciplinary degree
+          spanning mechanical, electrical, and power systems engineering. I hold a
+          3.50 GPA, I'm currently an Engineering Intern at Insteel Wire Products, and
+          I serve as President of the Science and Engineering Club.
+        </p>
+      </div>
+
+      <div class="case-block">
+        <h3 class="case-heading">What I'm Looking For</h3>
+        <p>
+          I'm seeking full-time engineering roles in aerospace, defense, renewable
+          energy, or power systems starting Summer 2027. Long-term, I want to build
+          real hardware for space.
+        </p>
       </div>
     </div>
   </section>
